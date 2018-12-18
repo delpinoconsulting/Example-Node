@@ -26,12 +26,12 @@ pdelpino/Example-Node:
   PreInstall:
     - echo "---Begining PreInstall---"
     - echo "--Installing deploy dependencies--"
-    - echo "-Updating apt-get-"
-    - sudo apt-get -y update
+    - echo "-Updating yum-"
+    - sudo yum -y update
     - echo "-Installing nodejs-"
-    - sudo apt-get -y install nodejs
+    - sudo yum -y install nodejs
     - echo "-Installing npm-"
-    - sudo apt-get -y install npm
+    - sudo yum -y install npm
 
   PostInstall:
     - echo "Begin PostInstall"
