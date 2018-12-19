@@ -36,6 +36,7 @@ pdelpino/Example-Node:
   PostInstall:
     - echo "Begin PostInstall"
     - echo "alsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjads"
+    - npm config set registry="http://registry.npmjs.org/"
     - npm install
 
   Env:
